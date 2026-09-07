@@ -22,7 +22,7 @@ import java.util.Locale;
 @Slf4j
 @RequiredArgsConstructor
 @Service
-public class MessageRequestValidationImplementation implements MessageRequestService {
+public class MessageRequestProductionImplementation implements MessageRequestService {
 
     private final RequestConditionalValidatorService validatorService;
     private final KafkaTemplate<String, KafkaMessageBody> kafkaTemplate;
